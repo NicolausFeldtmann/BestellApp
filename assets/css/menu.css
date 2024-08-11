@@ -11,3 +11,7 @@ body{
 a{
     color: black;
 }
+
+.dish{
+    border: solid black 1px;
+}
