@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="includeHTML()">
+
+    <header w3-include-html="header.html">
+    </header>
+
     <img class="mainImg" src="./assets/img/turtels.jpg">
     <div class="menuCard">
         <h2>Pizzen!</h2>
@@ -45,5 +50,7 @@
                     
 
     </div>
+
+    <footer w3-include-html="footer.html"></footer>
 </body>
 </html>
