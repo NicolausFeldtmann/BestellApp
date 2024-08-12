@@ -8,8 +8,8 @@ body{
     object-fit: cover;
 }
 
-a{
-    color: black;
+.menuCard{
+    padding-inline: 16px;
 }
 
 .dish{

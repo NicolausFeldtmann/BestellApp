@@ -4,9 +4,10 @@ body{
 }
 
 aside{
+    padding-inline: 16px;
     background-color: white;
     width: 250px;
-    height: 100vh;
+    height: 75vh;
     right: 0;
     position: fixed;
     border: solid rgb(211, 211, 211) 1px;
