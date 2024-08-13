@@ -23,5 +23,7 @@ function includeHTML() {
 
 
   function changeMenuCard() {
-    document.getElementById('menuCard').innerHTML = `w3-include-html="puff.html"`;
+
   }
+
+  

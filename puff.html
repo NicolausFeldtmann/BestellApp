@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Document</title>
 </head>
 <body onload="includeHTML()">
+
+    <header w3-include-html="header.html">
+    </header>
+
+    <aside>
+        <h2>Warenkorb</h2>
+    </aside>
+
+    <div class="headSection">
+        <div class="headImagSection">
+            <img class="mainImg" src="./assets/img/food-truck.jpg">
+        </div>
+
+        <div class="name">
+            <h1>Super Hero Foodtruck</h1>
+            <p>Bewertung (4,7 von 5 Sternen)</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Turtle Pizza!</a>
+        <a href="puff.html">Power Puff Cupcakes!</a>
+    </nav>
      
     <img class="mainImg" src="./assets/img/powerpuff2.jpg">
     <div class="menuCard">
@@ -18,6 +42,10 @@
                     <th>Blossmom Cupckacke</th>
                     <td>Mit Orangenmarmalede gefüllter Cupckacke<br>Überzogen mit Orangenem Zuckerguss<br> Bestreut mit Schockoperlen</td>
                 </table>
+                <div class="dishInfo">
+                    <img class="dishIcon" src="./assets/img/plus.png">
+                </div>
+            </div>
             </div>
 
             <div class="dishes">
@@ -26,6 +54,11 @@
                         <th>Bubbles Cupckacke</th>
                         <td>Überzogen mit blauem Zuckerguss<br> gefüllt mit flüssigem Vanille Kern mit Knusperperlen </td>
                     </table>
+                    <div class="dishInfo">
+                        <img class="dishIcon" src="./assets/img/plus.png">
+                    </div>
+                </div>
+
             </div>
 
             <div class="dishes">
@@ -34,8 +67,16 @@
                         <th>Buttercup Cupckacke</th>
                         <td>Dunnkle Schokolade<br> gefüllt mit Erdnussbutter</td>
                     </table>
+                    <div class="dishInfo">
+                        <img class="dishIcon" src="./assets/img/plus.png">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <footer w3-include-html="footer.html"></footer>
+
+    
 </body>
 </html>
