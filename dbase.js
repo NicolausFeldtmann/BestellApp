@@ -21,5 +21,5 @@ let menu = [
         "name": "Michelangelo",
         "ingredients": "Mit leckerem Käse im Rand! Eingelegt Sardellen und schelzender Karamell Ein gute kombination aus süß und Salzig!",
         "price": 15.50,
-    },
+    }
 ];

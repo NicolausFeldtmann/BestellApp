@@ -21,9 +21,20 @@ function includeHTML() {
     }
   }
 
-
-  function changeMenuCard() {
-
+  function init() {
+    //renderMenuEntrys();
+    includeHTML();
   }
 
-  
+
+  function renderMenuEntrys(idx) {
+    let contentRef = document.getElementById('content');
+    contentRef.innerHTML ="";
+    for (let i = 0; i < menu.length; i++) {
+      let name = menu[i].name;
+      let ingredients = menu[i].ingredients;
+      let price = menu[i].price;
+
+      contentRef.innerHTML += getMenuTemplate(name, ingredients, price,);
+    }
+  }
